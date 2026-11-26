@@ -4,6 +4,7 @@
 
 :root {
   --accent: #1F3BFF;        /* buttons, numbers, text links */
+  --title: #D11A2A;         /* main headline */
   --ground: #F5F6F4;        /* page background */
   --ink: #0D1117;           /* headings, dark band, footer */
   --text: #2B313A;          /* body copy */
@@ -98,6 +99,7 @@ h1 {
   line-height: 1.03;
   letter-spacing: -0.035em;
   text-wrap: balance;
+  color: var(--title);
 }
 
 h2 {
